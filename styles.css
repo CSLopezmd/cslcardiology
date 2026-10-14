@@ -179,3 +179,4 @@ main>section{width:min(var(--max),100% - 40px)!important;max-width:none!importan
 .cmap{padding:0!important}.acc-group{max-width:none}
 .svc-intro{margin:.6em auto 0;font-size:1.1rem;max-width:none}
 .accs .acc-group,.panel-accs .acc-group{max-width:none!important;width:100%}
+main>.accs{padding-left:0!important;padding-right:0!important}
