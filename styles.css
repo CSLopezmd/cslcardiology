@@ -177,3 +177,4 @@ dl.hours dt{text-align:right;font-weight:600}dl.hours dd{margin:0;text-align:lef
 /* uniform width: match bottom light box */
 main>section{width:min(var(--max),100% - 40px)!important;max-width:none!important;margin-left:auto;margin-right:auto}
 .cmap{padding:0!important}.acc-group{max-width:none}
+.svc-intro{margin:.6em auto 0;font-size:1.1rem;max-width:none}
