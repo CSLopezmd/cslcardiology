@@ -180,4 +180,3 @@ main>section{width:min(var(--max),100% - 40px)!important;max-width:none!importan
 .svc-intro{margin:.6em auto 0;font-size:1.1rem;max-width:none}
 .accs .acc-group,.panel-accs .acc-group{max-width:none!important;width:100%}
 main>.accs{padding-left:0!important;padding-right:0!important}
-@media (min-width:901px){.bio{grid-template-columns:minmax(260px,36%) 1fr}.bio .doc-photo{justify-content:flex-start}.bio .doc-photo img{object-position:top}.bio{grid-template-areas:'photo text' 'accs text';grid-template-rows:auto 1fr}.bio .doc-photo{grid-area:photo}.bio .bio-text{grid-area:text}.bio .accs{grid-area:accs;width:100%!important;margin:14px 0 0!important;padding:0 12px 0 0!important}}
