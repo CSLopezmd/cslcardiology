@@ -45,7 +45,8 @@ main{padding-bottom:48px}
 .welcome{margin-top:6px}
 .welcome-banner{position:relative}
 .welcome-word{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0;padding:.05em .45em;font-family:var(--serif);font-weight:700;font-size:clamp(2rem,7.5vw,5.2rem);letter-spacing:.06em;text-transform:uppercase;color:#000;background:rgba(255,255,255,.55);border-top:3px solid #000;border-bottom:3px solid #000;line-height:1.1}
-.welcome-img{width:100%;border-radius:8px 8px 0 0}
+.welcome-img{width:100%;aspect-ratio:1500/560;object-fit:cover;border-radius:8px 8px 0 0}
+.welcome{width:min(1360px,100% - 40px)}
 .welcome-box{border:5px solid #000;background:rgba(232,250,252,.6);padding:clamp(22px,3.5vw,34px) clamp(18px,3vw,30px);font-size:1.08rem;line-height:1.75}
 .calltoday{margin:26px 0 0;background:rgba(191,230,234,.8);border-top:1px solid #000;border-bottom:1px solid #000;overflow:hidden}
 .calltoday a{display:block;text-decoration:none;padding:7px 0}
@@ -67,9 +68,9 @@ main{padding-bottom:48px}
 .ptitle .sub{margin:.5em 0 0;font-size:.85rem;letter-spacing:.18em;text-transform:uppercase}
 
 /* meet the doctor */
-.bio{display:grid;grid-template-columns:minmax(240px,40%) 1fr;align-items:stretch;margin-top:10px}
+.bio{display:grid;grid-template-columns:minmax(300px,48%) 1fr;align-items:stretch;margin-top:10px}
 .doc-photo{margin:0;display:flex;flex-direction:column;justify-content:flex-end}
-.doc-photo img{width:100%;max-height:640px;object-fit:contain;object-position:bottom}
+.doc-photo img{width:100%;max-height:860px;object-fit:contain;object-position:bottom}
 .doc-photo figcaption{text-align:center;font-family:var(--serif);font-size:.95rem;padding:8px;background:rgba(255,255,255,.6)}
 .bio-text{background:rgba(169,221,227,.78);padding:clamp(20px,3vw,34px);text-align:center;font-size:.95rem;line-height:1.7}
 
@@ -145,7 +146,7 @@ dl.hours dt{text-align:right;font-weight:600}dl.hours dd{margin:0;text-align:lef
   .brand{justify-self:center}.brand img{height:44px}
   .pill{padding:8px 10px;font-size:.62rem}
   .bio,.contact-grid{grid-template-columns:1fr}
-  .doc-photo img{max-height:420px}
+  .doc-photo img{max-height:560px}
 }
 @media (max-width:520px){
   body{padding-bottom:56px}
